@@ -1,0 +1,675 @@
+{"restaurants": [
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "129782",
+            "name": "Domino's Pizza",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/9bbfdc56-b3c7-4845-a9af-44379cec458d_129782.JPG",
+            "locality": "Swarajpuri Road",
+            "areaName": "Gaya Locality",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian",
+                "Pastas",
+                "Desserts"
+            ],
+            "avgRating": 3.9,
+            "parentId": "2456",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "1.7K+",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-04-03 03:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹209"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/dominos-pizza-swarajpuri-road-gaya-locality-rest129782",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "133371",
+            "name": "Baskin Robbins - Ice Cream Desserts",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/12/0e81b621-6589-4e53-97d4-35e9c0451314_133371.jpg",
+            "locality": "Kasi Nath More",
+            "areaName": "Gaya Locality",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Desserts"
+            ],
+            "avgRating": 4.3,
+            "veg": true,
+            "parentId": "5588",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "464",
+            "sla": {
+                "deliveryTime": 36,
+                "lastMileTravel": 0.3,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "0.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Temporarily closed for delivery"
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/baskin-robbins-ice-cream-desserts-kasi-nath-more-gaya-locality-rest133371",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "806496",
+            "name": "La Pino'z Pizza",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/2/7ee4885d-05e4-470c-967c-eb6cca979dee_806496.jpg",
+            "locality": "KASHINATH",
+            "areaName": "APR MALL",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.2,
+            "parentId": "4961",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "495",
+            "sla": {
+                "deliveryTime": 48,
+                "lastMileTravel": 0.2,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "0.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Opens next at 11 am, today"
+            },
+            "badges": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹99"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/la-pinoz-pizza-kashinath-apr-mall-rest806496",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "701361",
+            "name": "Burger Singh(Big Punjabi Burgers)",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/1/155d914c-3f30-4a36-a77f-7c500aab35bc_701361 (1).jpg",
+            "locality": "Near Mirza Galib",
+            "areaName": "Gaya City",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Burgers",
+                "Snacks",
+                "Desserts",
+                "Beverages",
+                "Fast Food",
+                "American",
+                "Indian",
+                "Biryani"
+            ],
+            "avgRating": 4.4,
+            "parentId": "375065",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "1.2K+",
+            "sla": {
+                "deliveryTime": 41,
+                "lastMileTravel": 0.6,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "40-45 mins",
+                "lastMileTravelString": "0.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Opens next at 10 am, today"
+            },
+            "badges": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/burger-singh-big-punjabi-burgers-near-mirza-galib-gaya-city-rest701361",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "434232",
+            "name": "Biryani Blues",
+            "cloudinaryImageId": "vxhrxt8miy5v6xnfs6wx",
+            "locality": "Gaya - Bodhgaya Road",
+            "areaName": "MANGLA GORI",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Biryani"
+            ],
+            "avgRating": 4,
+            "parentId": "13813",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "81",
+            "sla": {
+                "deliveryTime": 55,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Opens next at 11 am, today"
+            },
+            "badges": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹50 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/biryani-blues-bodh-road-mangla-gori-rest434232",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "260672",
+            "name": "Cafe Coffee Day",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/19/239ab800-e8af-488b-b82a-230156abfcb9_260672.JPG",
+            "locality": "Domuhan-Bodhgaya Road",
+            "areaName": "Bodhgaya",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Beverages",
+                "Cafe",
+                "Snacks",
+                "Desserts",
+                "Burgers",
+                "Ice Cream",
+                "Bakery",
+                "Fast Food"
+            ],
+            "avgRating": 4.5,
+            "parentId": "1",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "299",
+            "sla": {
+                "deliveryTime": 78,
+                "lastMileTravel": 12.8,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "75-80 mins",
+                "lastMileTravelString": "12.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Temporarily closed for delivery"
+            },
+            "badges": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/cafe-coffee-day-domuhan-road-bodhgaya-rest260672",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "558916",
+            "name": "Keventers - Milkshakes & Desserts",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/1/2ed3dec2-e90b-4a08-a846-bd369c721910_558916.jpg",
+            "locality": "South Church Road",
+            "areaName": "Gaya Locality",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Beverages",
+                "Ice Cream",
+                "Desserts",
+                "Healthy Food"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "268997",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "607",
+            "sla": {
+                "deliveryTime": 47,
+                "lastMileTravel": 0.2,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "0.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Temporarily closed for delivery"
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/keventers-milkshakes-and-desserts-south-church-road-gaya-locality-rest558916",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "507564",
+            "name": "Rolls Mania - Rolls, Wraps & More",
+            "cloudinaryImageId": "umlojqiqvjvai9qlfnha",
+            "locality": "AP Colony",
+            "areaName": "Gaya Locality",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Rolls & Wraps",
+                "Fast Food",
+                "Snacks",
+                "Beverages"
+            ],
+            "avgRating": 4.3,
+            "parentId": "514939",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "551",
+            "sla": {
+                "deliveryTime": 65,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "60-65 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Temporarily closed for delivery"
+            },
+            "badges": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-b245ad53-c2c8-44a3-8328-f7af50fb5117"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/gaya/rolls-mania-rolls-wraps-and-more-ap-colony-gaya-locality-rest507564",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+]}
