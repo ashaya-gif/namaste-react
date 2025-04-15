@@ -1,6 +1,99 @@
-#heading{
-    color: yellow;
+ @import "tailwindcss";
+/*
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
 }
-#parent{
-    color: yellowgreen;
+
+.logo {
+    width: 150px;
+    height: 150px;
 }
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+} 
+
+.nav-items > ul> li{
+    padding: 20px;
+    font-size: 24px;
+    color:brown;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 350px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+    width: 100%;
+}
+
+/* .res-logo1 {
+    width: 100%;
+} */
+
+/* .res-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 350px;
+    background-color: #f0f0f0;
+}
+
+.login {
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+}
+
+.filter {
+    display: flex;
+}
+
+.user-card {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+.aarya{
+    color:cadetblue;
+    font-size: x-large;
+    font-style: italic;
+} */ 

@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is my react project",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch": "parcel watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/ashaya-gif/namaste-react.git)"
+  },
+  "keywords": [],
+  "author": "Ashaya Sinha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
