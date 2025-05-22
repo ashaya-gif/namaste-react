@@ -7,13 +7,13 @@ const RestaurantCard = ({resData}) => {
 
     console.log("Rendering RestaurantCard for:", name); // Debugging
     return (
-      <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
+      <div className="m-1 p-5 w-56 rounded-xl bg-gray-100 hover:bg-gray-200">
         <img
-          className="res-logo"
+          className="rounded-xl"
           alt={name}
           src={img}
         />
-        <h3>{name}</h3>
+        <h3 className=" p-1 font-bold">{name}</h3>
         <h4>{cuisimes}</h4>
         <h5>{deliveryTime} minutes</h5> 
         <h5>⭐ {avgRating}</h5> 

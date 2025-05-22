@@ -73,6 +73,22 @@ export default Body;
 
 git link
 https://api.github.com/users/USERNAME   
+Below is the print the restaurants name with price 
+return (
+        <div className="menu">
+             <h1>{name}</h1>
+            <h2>{city}</h2>
+            <h3>{avgRatingString}</h3>
+            <h4>{costForTwoMessage}</h4>
+            <h4>{cuisines.join(", ")}</h4>
+            { <ul>
+                {itemCardsprev.map((item, index) => <li key={index}>{item.card.info.name}- {" Rs."}
+                    {item.card.info.price/100 || item.card.info.defaultPrice/100}</li>)}
+                 
+                
+            </ul> }
+        </div>
+    );
 
 
 

@@ -1,12 +1,12 @@
 import RestaurantCard from "./RestaurantCard";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Shimmer } from "./shimmer";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import userContext from "../utils/UserContext";
 
 const Body = () => {
   const [listOfRestaurants, setlistOfRestaurants] = useState([]);
-
   const [searchText, setSearchText] = useState([]);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Body = () => {
         .filter((res) => res !== undefined)
         .flat(); // Flatten the array to avoid nested arrays
 
-      console.log("Extracted Restaurants:", restaurants); // Log extracted data
+      console.log("Restaurants:", restaurants); // Log extracted data
       
       const updatedRestaurants = restaurants.map((item) => ({
         data: {
@@ -55,24 +55,30 @@ const Body = () => {
   if(OnlineStatus === false) return ( <h1>Looks like some internet connection issue!!
     Please check your connection.</h1>);
 
+  const {loggedInUser, setUserName} = useContext(userContext);
+
 
   return listOfRestaurants.length=== 0 ? (<Shimmer />) :(
     <div className="body">
-      <div className="filter">
-        <div className="search">
-            <input type="text" className="search-box text-3xl border-2 border-red" value={searchText} onChange={(e) => { setSearchText(e.target.value);}} />
-            <button onClick={() =>{console.log(searchText)
+      <div className="filter flex items-center">
+        <div className="search m-3 p-3">
+            <input type="text" className="border text-xl border-solid border-black" value={searchText} onChange={(e) => { setSearchText(e.target.value);}} />
+            <button 
+              className="px-2 py-0.01 m-2 bg-pink-100 rounded-xl" 
+              onClick={() =>{console.log(searchText)
                 //const filteredRestaurant = listOfRestaurants.filter((res) => res.data.name.include(searchText)); 
                 const filteredRestaurant = listOfRestaurants.filter((res) =>
                     res.data.name?.toLowerCase().includes(searchText.toLowerCase())
                   );
                   
                 setlistOfRestaurants(filteredRestaurant);
-    
+                console.log("filteredRestaurant1111",filteredRestaurant);
+            console.log("listOfRestaurants2222",listOfRestaurants);
             }}><span className="text-3xl">Search</span></button>
         </div>
+        <div className="m-3 p-3">
         <button
-          className="filter-btn"
+          className=" px-5 py-1.5 m-2 bg-pink-100 rounded-xl"
           onClick={() => {  
             const filteredList = listOfRestaurants.filter(
               (res) => res.data.avgRating > 4.3
@@ -83,9 +89,18 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button>
+        </div>
+        <div className="m-3 p-3">
+          <label>User Name:</label>
+          <input 
+            className=" border border-black p-2" 
+            value={loggedInUser}
+            onChange={(e)=> setUserName(e.target.value)}
+          />
+        </div>
       </div>
 
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {listOfRestaurants.length === 0 ? (
           <h3>No Restaurants Found</h3>
         ) : (
