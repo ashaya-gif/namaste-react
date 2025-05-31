@@ -10,7 +10,7 @@ export const Header = () => {
     const {loggedInUser} = useContext(userContext);
 
     const cartItems = useSelector ((store) => store.cart.items);
-    console.log(cartItems);
+    
     return (
       <div className="header flex justify-between bg-pink-100 shadow-xl">
         <div className="logo-container">
@@ -25,7 +25,7 @@ export const Header = () => {
             <li className="px-2.5"><Link to="/about">About Us</Link></li>
             <li className="px-2.5"><Link to="/contact">Contact Us</Link></li>
             <li className="px-2.5"><Link to="/grocery">Grocery</Link></li>
-            <li className="px-2.5 font-bold"><Link to="/cart">🛒 🚮 - ({cartItems.length} items)</Link></li>
+            <li className="px-2.5 font-bold"><Link to="/cart">Cart - ({cartItems.length} items)</Link></li>
             <button className="login" onClick={() =>{btnNameReact=== "Login"? setBtnNameReact("Logout"): setBtnNameReact("Login");
             }}>{btnNameReact}</button>
             <li className="px-4 font-bold">{loggedInUser}</li>

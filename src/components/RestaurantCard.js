@@ -4,10 +4,10 @@ const RestaurantCard = ({resData}) => {
         return null; // Prevent crashing
     }
     const { id, name, img, cuisimes, deliveryTime, avgRating } = resData.data;
-
-    console.log("Rendering RestaurantCard for:", name); // Debugging
+    //console.log('for testinggg',resData);
+    //console.log("Rendering RestaurantCard for:", name); // Debugging
     return (
-      <div className="m-1 p-5 w-56 rounded-xl bg-gray-100 hover:bg-gray-200">
+      <div data-testid= "resCard"  className="m-1 p-5 w-56 rounded-xl bg-gray-100 hover:bg-gray-200">
         <img
           className="rounded-xl"
           alt={name}

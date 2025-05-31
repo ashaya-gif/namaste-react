@@ -1,0 +1,11 @@
+{
+    "data": {
+        "id": "129782",
+        "name": "Domino's Pizza",
+        "img": "https://media-assets.swiggy.com/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/9bbfdc56-b3c7-4845-a9af-44379cec458d_129782.JPG",
+        "cuisimes": "Pizzas, Italian, Pastas, Desserts",
+        "costforTwo": "₹400 for two",
+        "deliveryTime": 25,
+        "avgRating": 3.8
+    }
+}

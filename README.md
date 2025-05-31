@@ -90,9 +90,8 @@ return (
         </div>
     );
 
-
-
-
+code to push in git
+git remote add origin https://github.com/ashaya-gif/namaste-react.git 
 
 
 

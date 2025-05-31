@@ -42,7 +42,7 @@ const Body = () => {
           avgRating: item.info.avgRating,
         },
       }));
-      console.log("Final Processed Restaurants:", updatedRestaurants);
+      //console.log("Final Processed Restaurants:", updatedRestaurants);
 
       setlistOfRestaurants(updatedRestaurants);
       
@@ -62,7 +62,7 @@ const Body = () => {
     <div className="body">
       <div className="filter flex items-center">
         <div className="search m-3 p-3">
-            <input type="text" className="border text-xl border-solid border-black" value={searchText} onChange={(e) => { setSearchText(e.target.value);}} />
+            <input type="text" data-testid = "searchInput" className="border text-xl border-solid border-black" value={searchText} onChange={(e) => { setSearchText(e.target.value);}} />
             <button 
               className="px-2 py-0.01 m-2 bg-pink-100 rounded-xl" 
               onClick={() =>{console.log(searchText)
@@ -72,8 +72,8 @@ const Body = () => {
                   );
                   
                 setlistOfRestaurants(filteredRestaurant);
-                console.log("filteredRestaurant1111",filteredRestaurant);
-            console.log("listOfRestaurants2222",listOfRestaurants);
+                //console.log("filteredRestaurant1111",filteredRestaurant);
+            //console.log("listOfRestaurants2222",listOfRestaurants);
             }}><span className="text-3xl">Search</span></button>
         </div>
         <div className="m-3 p-3">
